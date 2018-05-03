@@ -1,8 +1,10 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 
-let step = 0;
+
 
 function init() {
+  let step = 0;
+  
   const body = document.getElementsByTagName("BODY")[0];
 
   body.addEventListener("keydown", press => {
